@@ -15,7 +15,10 @@
   "author": "akameco",
   "license": "MIT",
   "dependencies": {
-    "meow": "^3.7.0",
-    "moment": "^2.11.1"
+    "meow": "^3.7.0"
+  },
+  "xo": {
+    "esnext": true,
+    "space": true
   }
 }

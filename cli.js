@@ -8,5 +8,4 @@ const cli = meow(`
     $ happy <input>  -- calc money
 `);
 
-let file = cli.input[0];
-calc(file);
+calc(cli.input[0]);

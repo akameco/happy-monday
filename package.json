@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "happy happy monday!",
   "main": "index.js",
+  "bin": {
+    "happy": "cli.js"
+  },
   "scripts": {
     "test": "ava"
   },
@@ -10,5 +13,9 @@
     "money"
   ],
   "author": "akameco",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "meow": "^3.7.0",
+    "moment": "^2.11.1"
+  }
 }

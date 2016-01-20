@@ -1,0 +1,4 @@
+# Happy Monday
+
+## License
+MIT

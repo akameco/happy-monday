@@ -1,0 +1,14 @@
+{
+  "name": "happy-monday",
+  "version": "0.0.1",
+  "description": "happy happy monday!",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "keywords": [
+    "money"
+  ],
+  "author": "akameco",
+  "license": "MIT"
+}

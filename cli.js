@@ -16,6 +16,6 @@ const cli = meow(`
   }
 });
 
-happy(cli.input[0], cli.flags['salary'], cli.flags['cost']).then(sum => {
+happy(cli.input[0], cli.flags.salary, cli.flags.cost).then(sum => {
   console.log(sum);
 });
